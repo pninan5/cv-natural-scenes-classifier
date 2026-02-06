@@ -20,13 +20,7 @@ data/
     mountain/
     sea/
     street/
-  seg_test/seg_test/
-    buildings/
-    forest/
-    glacier/
-    mountain/
-    sea/
-    street/
+ 
   seg_pred/seg_pred/
     (unlabeled images for demo predictions)
 ```
@@ -34,8 +28,7 @@ data/
 Splits and sizes from the training run:
 
 1. Train split (from seg_train): 11,929 images  
-2. Validation split (15 percent of seg_train): 2,105 images  
-3. Test split (seg_test): 3,000 images  
+2. Test split (seg_test): 3,000 images  
 
 ## Approach
 Model: ResNet18 with ImageNet pretrained weights, fine tuned for 6 classes.
