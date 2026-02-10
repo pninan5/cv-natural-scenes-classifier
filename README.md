@@ -96,7 +96,7 @@ This will:
 After training, run:
 
 ```bash
-python src/predict.py "C:\Users\patri\OneDrive\Desktop\JobHunt2025\cv_natural_scenes\data\seg_pred\seg_pred\30.jpg"
+python src/predict.py "path input"
 ```
 
 The `predict.py` script prints a single final predicted class with a confidence score (top 1 prediction).
